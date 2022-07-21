@@ -23,7 +23,7 @@
     "single page application"
   ],
   "scripts": {
-    "build": "webpack",
+    "build": "webpack && tsc",
     "test": "mocha",
     "coverage": "nyc --reporter=lcov mocha",
     "commit": "git-cz",

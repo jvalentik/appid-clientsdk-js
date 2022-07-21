@@ -11,7 +11,9 @@ class Utils {
 			requestHandler = new RequestHandler(),
 			tokenValidator = new TokenValidator(),
 			url = URL,
+			// @ts-ignore
 			openIdConfigResource,
+			// @ts-ignore
 			popup,
 			jsrsasign = jsrsasign
 		} = {}) {
